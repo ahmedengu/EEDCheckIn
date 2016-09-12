@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Visitor" cloudDestinationProperty="Visitor" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="Visitor" cyclicFocus="true" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" scrollableX="true" scrollableY="true" layout="TableLayout" tableLayoutRows="10" tableLayoutColumns="2" >
+    <layoutConstraint value="Center" />
+    <component type="Label" name="Label" cloudDestinationProperty="Label" text="Name" >
+    </component>
+    <component type="Label" name="vName" cloudDestinationProperty="vName" text="Label" >
+    </component>
+    <component type="Label" name="Label2" cloudDestinationProperty="Label2" text="Mobile" >
+    </component>
+    <component type="Label" name="vMobile" cloudDestinationProperty="vMobile" text="Label" >
+    </component>
+    <component type="Label" name="Label4" cloudDestinationProperty="Label4" text="Workshop" >
+    </component>
+    <component type="Label" name="vWorkshop" cloudDestinationProperty="vWorkshop" text="Label" >
+    </component>
+    <component type="Label" name="Label6" cloudDestinationProperty="Label6" text="Coupon" >
+    </component>
+    <component type="Label" name="vCoupon" cloudDestinationProperty="vCoupon" text="Label" >
+    </component>
+    <component type="Label" name="Label8" cloudDestinationProperty="Label8" text="Email" >
+    </component>
+    <component type="Label" name="vEmail" cloudDestinationProperty="vEmail" text="Label" >
+    </component>
+    <component type="Label" name="Label10" cloudDestinationProperty="Label10" text="Edu" >
+    </component>
+    <component type="Label" name="vEdu" cloudDestinationProperty="vEdu" text="Label" >
+    </component>
+    <component type="Label" name="Label1" cloudDestinationProperty="Label1" text="Day" >
+    </component>
+    <component type="Label" name="Vday" cloudDestinationProperty="Vday" text="Label" >
+    </component>
+    <component type="Label" name="Label3" cloudDestinationProperty="Label3" text="Gender" >
+    </component>
+    <component type="Label" name="vGender" cloudDestinationProperty="vGender" text="Label" >
+    </component>
+    <component type="Label" name="Label7" cloudDestinationProperty="Label7" text="Birthdate" >
+    </component>
+    <component type="Label" name="vBdate" cloudDestinationProperty="vBdate" text="Label" >
+    </component>
+    <component type="Label" name="Label5" cloudDestinationProperty="Label5" text="isHeIn" >
+    </component>
+    <component type="Label" name="vIsHeIn" cloudDestinationProperty="Label9" text="Label" >
+    </component>
+  </component>
+  <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0" >
+    <layoutConstraint value="South" />
+    <component type="Button" name="VCeckIn" cloudDestinationProperty="VCeckIn" text="CheckIn" >
+    </component>
+    <component type="Button" name="VcheckOut" cloudDestinationProperty="VcheckOut" text="CheckOut" >
+    </component>
+    <component type="Button" name="NewQR" cloudDestinationProperty="NewQR" text="NewQR" >
+    </component>
+  </component>
+</component>

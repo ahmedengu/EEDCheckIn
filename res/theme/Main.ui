@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="Main" cloudDestinationProperty="Main" layout="BorderLayout" borderLayoutAbsoluteCenter="false" title="EED" >
+  <component type="Container" name="Container" cloudDestinationProperty="Container" rtl="false" layout="BoxLayout" boxLayoutAxis="Y" >
+    <layoutConstraint value="Center" />
+    <component type="Container" name="Container2" cloudDestinationProperty="Container2" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0" >
+      <component type="RadioButton" name="day1" cloudDestinationProperty="day1" text="Day 1" toggle="true" group="day" selected="true" gap="5" textPosition="1" >
+      </component>
+      <component type="RadioButton" name="day2" cloudDestinationProperty="day2" text="Day 2" toggle="true" group="day" textPosition="1" >
+      </component>
+    </component>
+    <component type="Container" name="Container1" cloudDestinationProperty="Container1" layout="FlowLayout" flowLayoutFillRows="false" flowLayoutAlign="4" flowLayoutValign="0" >
+      <component type="TextField" name="Mobile" cloudBoundProperty="text" cloudDestinationProperty="Mobile" text="" constraint="3" maxSize="12" hint="Mobile" columns="13" >
+      </component>
+      <component type="Button" name="Button1" cloudDestinationProperty="Button1" text="Search" >
+      </component>
+    </component>
+    <component type="Button" name="check" cloudDestinationProperty="check" text="Search Visitor" >
+    </component>
+    <component type="Button" name="checkIn" cloudDestinationProperty="checkIn" text="checkIn" >
+    </component>
+    <component type="Button" name="checkOut" cloudDestinationProperty="checkOut" text="checkOut" >
+    </component>
+  </component>
+</component>
